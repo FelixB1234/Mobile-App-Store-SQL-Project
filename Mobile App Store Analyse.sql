@@ -87,16 +87,16 @@ GROUP BY Sprachkategorien
 ORDER BY Durschschnitt_Rating DESC
 
 
---Zusammenhang zwischen Detaillierungsgrad (Länge) der App Beschreibung und dem Rating
+--Zusammenhang zwischen Detailliertheit (Länge) der App Beschreibung und dem Rating
 
 SELECT 
 	CASE WHEN length(d.app_desc) < 500 THEN 'kurz'
 		 WHEN length(d.app_desc) BETWEEN 500 AND 1000 THEN 'mittel'
-		 ELSE 'lang' END AS Detaillierungsgrad_Beschreibung,
-	AVG(user_rating) AS Durschschnitt_Rating 
+		 ELSE 'lang' END AS Detailliertheit_Beschreibung,
+	ROUND(AVG(user_rating),2) AS Durschschnitt_Rating 
 FROM applestore AS s
 JOIN apple_desc AS d ON s.id = d.id
-GROUP BY Detaillierungsgrad_Beschreibung
+GROUP BY Detailliertheit_Beschreibung
 ORDER BY Durschschnitt_Rating DESC
 
 
