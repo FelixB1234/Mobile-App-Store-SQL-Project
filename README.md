@@ -5,17 +5,15 @@ Die Daten stammen aus zwei Datensätzen von kaggle, die Informationen über Apps
 Einige spannende Spalten lauten wie folgt:
 
 **applestore:**
-"\n",
-    "- track_name: App-Name\n",
-    "- size_bytes: Größe (in Bytes)\n",
-    "- price: Preisbetrag\n",
-    "- rating_count_tot: Nutzerbewertung (alle Versionen)\n",
-    "- user_rating: Durchschnittliche Nutzerbewertung (alle Versionen)\n",
-    "- prime_genre: Hauptgenre\n",
-"---\n",
+- track_name: App-Name
+- size_bytes: Größe (in Bytes)
+- price: Preisbetrag
+- rating_count_tot: Nutzerbewertung (alle Versionen)
+- user_rating: Durchschnittliche Nutzerbewertung (alle Versionen)
+- prime_genre: Hauptgenre
 
 **apple_desc:**
-    "- app_desc: Anwendungsbeschreibung/App-Beschreibung\n"
+- app_desc: Anwendungsbeschreibung/App-Beschreibung
     
 ## Projektübersicht 
 
