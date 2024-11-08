@@ -15,6 +15,7 @@ CREATE Table apple_desc (
 )
 
 
+Überprüfen der Datenqualität:
 --Vergleichen der Anzahl an Apps je Tabelle (ist ident)
 
 SELECT COUNT(DISTINCT id) AS UniqueIDs
@@ -35,6 +36,7 @@ FROM apple_desc
 WHERE app_desc ISNULL 
 
 
+Explorative Datenanalyse:	
 --Anzahl der Apps nach Genre: die Meisten Apps (rd. 50%) sind "Games". Weit abgeschlagen "Entertainment" und "Education"
 
 SELECT 
@@ -54,6 +56,7 @@ SELECT
 FROM applestore
 
 
+Analyse und ableiten von Insights:
 --Auswertungen der App-Bewertungen nach Genre 
 
 SELECT 
