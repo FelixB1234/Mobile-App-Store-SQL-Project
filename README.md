@@ -1,34 +1,37 @@
 # SQL-Data-Analysis
 ## Datenquelle 
-Die Daten stammen aus zwei Datensätzen von kaggle, die Informationen über Apps im Apple App Store enthalten. Der applestore-Datensatz enthält Details wie App-Namen, Bewertungen und Genres, während der apple_desc-Datensatz die Beschreibungstexte der Apps umfasst. https://www.kaggle.com/datasets/ramamet4/app-store-apple-data-set-10k-apps?select=appleStore_description.csv
+Die Daten stammen aus zwei Datensätzen von kaggle, die Informationen über Apps im Apple App Store enthalten. Der applestore-Datensatz enthält Details wie App-Namen, Ratings und Genres, während der apple_desc-Datensatz die Beschreibungstexte der Apps umfasst. https://www.kaggle.com/datasets/ramamet4/app-store-apple-data-set-10k-apps?select=appleStore_description.csv
 ## Projektübersicht 
 
-In diesem Projekt wird eine Analyse der Daten über Apps aus dem Apple App Store durchgeführt, um Einblicke in die beliebteste App-Kategorien, Bewertungstrends und App-Merkmale zu gewinnen. Ziel ist es, herauszufinden, welche Merkmale die App-Bewertungen und Beliebtheit beeinflussen, um damit wertvolle Erkenntnisse über die App-Landschaft und Nutzerpräferenzen zu erhalten.
+In diesem Projekt wird eine Analyse der Daten über Apps aus dem Apple App Store durchgeführt, um Einblicke in die beliebteste App-Kategorien, Bewertungstrends und App-Merkmale zu gewinnen. Ziel ist es, herauszufinden, welche Merkmale die App-Ratings und Beliebtheit beeinflussen, um damit wertvolle Erkenntnisse über die App-Landschaft und Nutzerpräferenzen zu erhalten.
 
 ## Aufgabenstellung 
 
 Die Analyse konzentriert sich auf die Beantwortung folgender Fragen:
 
 1. **Welche Genres haben die höchste Anzahl an Apps? Welche Genres sind weniger vertreten?**
-2. **Wie hoch ist die durchschnittliche Bewertung und wie variieren die Bewertungen zwischen Genres?**
-3. **Gibt es Unterschiede in den Bewertungen zwischen kostenpflichtigen und kostenlosen Apps?**
+2. **Wie hoch ist das durchschnittliche Rating und wie differenziert sich diese nach Genres?**
+3. **Gibt es Unterschiede in den Ratings zwischen kostenpflichtigen und kostenlosen Apps?**
 4. **Wie beeinflusst die Anzahl der verfügbaren Sprachen das Rating? Erhalten Apps mit mehr unterstützten Sprachen höhere Bewertungen?**
-5. **Welche Genres haben im Durchschnitt die schlechtesten Bewertungen?**
-6. **Besteht ein Zusammenhang zwischen der Detailliertheit der App-Beschreibung und den Bewertungen?**
-7. **Welche App hat in jedem Genre die beste Bewertung?**
+5. **Besteht ein Zusammenhang zwischen der Detailliertheit der App-Beschreibung und dem Rating?**
+6. **Welche App hat in jedem Genre das beste Rating?**
 
-### Überprüfen der Daten Qualität
+## Zusammenfassung der Ergebnisse
 
-Die meisten Apps im Datensatz gehören zum Genre „Games“ (ca. 50 %), gefolgt von „Entertainment“ und „Education“.
+### 1. **Genres mit den meisten und wenigsten Apps**
+   -Die meisten Apps im Datensatz gehören zum Genre „Games“, gefolgt von „Entertainment“ und „Education“. Die wenigsten Apps gibt es in den Kategorien "Catalogs" und "Medical".
 
+![image](https://github.com/user-attachments/assets/d4ef6357-0491-422d-b0ff-3dc151dd2934)
 
-SELECT prime_genre, COUNT(*) AS NumApps
-FROM applestore
-GROUP BY prime_genre
-ORDER BY NumApps DESC
-Bewertungsauswertung:
+### 2. **Durchschnittliche  Ratings nach Genres**
+   -Das durchschnittliche Rating liegt bei 3,53 (0 = schlechtestes und 5 = bestes Rating). Die durchschnittliche besten Ratings sind im Genre "Productivity", die schlechtesten in "Catalogs". 
 
-Die App-Bewertungen reichen von 0 bis 5, mit einer durchschnittlichen Bewertung von 3,52.
+![image](https://github.com/user-attachments/assets/324806f4-1f9c-422a-b008-0910933212e4)
+
+### 3. **Unterschiede zwischen den Ratings bei kostenpflichtigen und kostenlosen Apps**
+   -Kostenpflichtige Apps haben im Durchschnitt ein höheres Rating (3,72) im Vergleich zu kostenlosen Apps (3,38). 
+
+![image](https://github.com/user-attachments/assets/dca67661-09a6-4229-b326-82f670aa06b5)
 
 ### Explorative Datenanalyse
 
