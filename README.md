@@ -1,6 +1,8 @@
 # SQL-Data-Analysis
 ## Datenquelle 
-Die Daten stammen aus zwei Datensätzen von Kaggle, die Informationen über Apps im Apple App Store enthalten: applestore und apple_desc. Der applestore-Datensatz enthält Details wie App-Namen, Bewertungen und Genres, während der apple_desc-Datensatz die Beschreibungstexte der Apps umfasst. Der Link zum Datensatz ist: Apple App Store Dataset.
+Die Daten stammen aus zwei Datensätzen von kaggle, die Informationen über Apps im Apple App Store enthalten. Der applestore-Datensatz enthält Details wie App-Namen, Bewertungen und Genres, während der apple_desc-Datensatz die Beschreibungstexte der Apps umfasst. Der Link zum Datensatz ist: Apple App Store Dataset.
+
+https://www.kaggle.com/datasets/ramamet4/app-store-apple-data-set-10k-apps?select=appleStore_description.csv
 
 ## Projektübersicht 
 In diesem Projekt wird eine umfassende Analyse der Daten über Apps aus dem Apple App Store durchgeführt, um Einblicke in die beliebteste App-Kategorien, Bewertungstrends und App-Merkmale zu gewinnen. Ziel ist es, herauszufinden, welche Merkmale die App-Bewertungen und Beliebtheit beeinflussen, um damit wertvolle Erkenntnisse über die App-Landschaft und Nutzerpräferenzen zu erhalten.
@@ -29,6 +31,7 @@ Bewertungsauswertung:
 
 Die App-Bewertungen reichen von 0 bis 5, mit einer durchschnittlichen Bewertung von 3,52.
 
+### Explorative Datenanalyse
 
 SELECT MIN(user_rating) AS minrating, MAX(user_rating) AS maxrating, AVG(user_rating) AS Durchschnitt_Rating
 FROM applestore
@@ -57,6 +60,7 @@ Niedrig bewertete Genres:
 
 Genres wie „Catalogs“, „Finance“ und „Book“ haben im Durchschnitt die niedrigsten Bewertungen.
 
+### Herausarbeiten der wichtigsten Insights
 
 SELECT prime_genre, AVG(user_rating) AS Durchschnitt_Rating
 FROM applestore
