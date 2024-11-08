@@ -6,23 +6,16 @@ Einige spannende Spalten lauten wie folgt:
 
 **applestore:**
 "\n",
-    "- track_name: App-Name",
-    "- size_bytes: Größe (in Bytes)",
-    "- price: Preisbetrag",
-    "- rating_count_tot: Nutzerbewertung (alle Versionen)",
-    "- user_rating: Durchschnittliche Nutzerbewertung (alle Versionen)",
-    "- prime_genre: Hauptgenre",
-    "- bpm: Beats per Minute (Tempo des Songs)\n",
-    "- danceability_%: Tanzbarkeit des Songs in Prozent\n",
-    "- valence_%: Positivität der Stimmung des Songs in Prozent\n",
-    "- energy_%: Energieniveau des Songs in Prozent\n",
-    "- acousticness_%: Akustizität des Songs in Prozent\n",
-    "- instrumentalness_%: Instrumentalanteil des Songs in Prozent\n",
-    "- speechiness_%: Anteil der gesprochenen Wörter eines Songs\n",
+    "- track_name: App-Name\n",
+    "- size_bytes: Größe (in Bytes)\n",
+    "- price: Preisbetrag\n",
+    "- rating_count_tot: Nutzerbewertung (alle Versionen)\n",
+    "- user_rating: Durchschnittliche Nutzerbewertung (alle Versionen)\n",
+    "- prime_genre: Hauptgenre\n",
 "---\n",
 
 **apple_desc:**
-    "- app_desc: Anwendungsbeschreibung/App-Beschreibung"
+    "- app_desc: Anwendungsbeschreibung/App-Beschreibung\n"
     
 ## Projektübersicht 
 
