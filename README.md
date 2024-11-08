@@ -1,4 +1,4 @@
-# SQL-Data-Analysis
+# Mobile App Store Datenanalyse
 ## Datenquelle 
 Die Daten stammen aus zwei Datensätzen von kaggle, die Informationen über Apps im Apple App Store enthalten. Der applestore-Datensatz enthält Details wie App-Namen, Ratings und Genres, während der apple_desc-Datensatz die Beschreibungstexte der Apps umfasst. https://www.kaggle.com/datasets/ramamet4/app-store-apple-data-set-10k-apps?select=appleStore_description.csv
 ## Projektübersicht 
