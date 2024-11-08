@@ -100,12 +100,10 @@ GROUP BY Detailliertheit_Beschreibung
 ORDER BY Durschschnitt_Rating DESC
 
 
---Höchst bewertete App nach Genre
-
 SELECT
-	prime_genre,
-	track_name,
-	user_rating
+	prime_genre As Genre,
+	track_name AS App_Titel,
+	user_rating AS rating
 FROM (
 	SELECT
 	prime_genre,
