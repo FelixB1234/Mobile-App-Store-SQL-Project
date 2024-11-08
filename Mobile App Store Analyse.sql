@@ -45,7 +45,8 @@ SELECT
 	AVG(user_rating) AS Durschschnitt_Rating
 FROM applestore
 
-Analyse und ableiten von Insights:
+	
+Beantworten der Fragen:
 
 --Anzahl der Apps nach Genre
 
