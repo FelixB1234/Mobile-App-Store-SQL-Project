@@ -1,6 +1,27 @@
 # Mobile App Store Datenanalyse
 ## Datenquelle 
 Die Daten stammen aus zwei Datensätzen von kaggle, die Informationen über Apps im Apple App Store enthalten. Der applestore-Datensatz enthält Details wie App-Namen, Ratings und Genres, während der apple_desc-Datensatz die Beschreibungstexte der Apps umfasst. https://www.kaggle.com/datasets/ramamet4/app-store-apple-data-set-10k-apps?select=appleStore_description.csv
+
+Einige spannende Spalten lauten wie folgt:
+
+**applestore:**
+    "- track_name: App-Name",
+    "- size_bytes: Größe (in Bytes)",
+    "- price: Preisbetrag",
+    "- rating_count_tot: Nutzerbewertung (alle Versionen)",
+    "- user_rating: Durchschnittliche Nutzerbewertung (alle Versionen)",
+    "- prime_genre: Hauptgenre",
+    "- bpm: Beats per Minute (Tempo des Songs)\n",
+    "- danceability_%: Tanzbarkeit des Songs in Prozent\n",
+    "- valence_%: Positivität der Stimmung des Songs in Prozent\n",
+    "- energy_%: Energieniveau des Songs in Prozent\n",
+    "- acousticness_%: Akustizität des Songs in Prozent\n",
+    "- instrumentalness_%: Instrumentalanteil des Songs in Prozent\n",
+    "- speechiness_%: Anteil der gesprochenen Wörter eines Songs\n",
+    
+**apple_desc:**
+    "- app_desc: Anwendungsbeschreibung/App-Beschreibung"
+    
 ## Projektübersicht 
 
 Dieses Projekt analysiert die Daten der Apps aus dem Apple App Store, um Einblicke in die beliebteste App-Kategorien, Bewertungstrends und App-Merkmale zu gewinnen. Ziel ist es, herauszufinden, welche Merkmale die App-Ratings und Beliebtheit beeinflussen, um damit wertvolle Erkenntnisse über die App-Landschaft und Erfolgsfaktoren für zukünftig entwickelte Apps zu gewinnen.
