@@ -19,19 +19,19 @@ Die Analyse konzentriert sich auf die Beantwortung folgender Fragen:
 ## Zusammenfassung der Ergebnisse
 
 ### 1. **Genres mit den meisten und wenigsten Apps**
-   -Die meisten Apps im Datensatz gehören zum Genre „Games“, gefolgt von „Entertainment“ und „Education“. Die wenigsten Apps gibt es in den Kategorien "Catalogs" und "Medical".
+   Die meisten Apps im Datensatz gehören zum Genre „Games“, gefolgt von „Entertainment“ und „Education“. Die wenigsten Apps gibt es in den Kategorien "Catalogs" und "Medical".
 
 ![image](https://github.com/user-attachments/assets/70d0182d-e71a-4d17-b71e-54bcf3e80909)
 
 
 ### 2. **Durchschnittliche  Ratings nach Genres**
-   -Das durchschnittliche Rating liegt bei 3,53 (0 = schlechtestes und 5 = bestes Rating). Die durchschnittliche besten Ratings sind im Genre "Productivity", die schlechtesten in "Catalogs". 
+   Das durchschnittliche Rating liegt bei 3,53 (0 = schlechtestes und 5 = bestes Rating). Die durchschnittliche besten Ratings sind im Genre "Productivity", die schlechtesten in "Catalogs". 
 
 ![image](https://github.com/user-attachments/assets/324806f4-1f9c-422a-b008-0910933212e4)
 
 
 ### 3. **Unterschiede zwischen den Ratings bei kostenpflichtigen und kostenlosen Apps**
-   -Kostenpflichtige Apps haben im Durchschnitt ein höheres Rating (3,72) im Vergleich zu kostenlosen Apps (3,38). 
+   Kostenpflichtige Apps haben im Durchschnitt ein höheres Rating (3,72) im Vergleich zu kostenlosen Apps (3,38). 
 
 ![image](https://github.com/user-attachments/assets/dca67661-09a6-4229-b326-82f670aa06b5)
 
@@ -41,12 +41,12 @@ Die Analyse konzentriert sich auf die Beantwortung folgender Fragen:
 ![image](https://github.com/user-attachments/assets/06c273f5-94fc-4698-b8d6-735143fd9f6a)
 
 ### 5. **Zusammenhang zwischen Detailliertheit der App-Beschreibung und dem Rating**
-   -Apps mit detaillierten (bzw. längeren) Beschreibungen haben höhere Ratings als Apps mit kürzeren Beschreibungen.
+   Apps mit detaillierten (bzw. längeren) Beschreibungen haben höhere Ratings als Apps mit kürzeren Beschreibungen.
 
 ![image](https://github.com/user-attachments/assets/e856de3b-00e0-430d-b022-79d2a4559a8f)
 
 ### 6. **App mit dem besten Rating je Genre**
-   -Im Anschluss sind die am besten bewerteten Apps je Genre angeführt.
+   Im Anschluss sind die am besten bewerteten Apps je Genre angeführt.
 
 ![image](https://github.com/user-attachments/assets/1caebbc7-4010-426e-9525-504ea97e0d2b)
 
