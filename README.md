@@ -5,6 +5,7 @@ Die Daten stammen aus zwei Datensätzen von kaggle, die Informationen über Apps
 Einige spannende Spalten lauten wie folgt:
 
 **applestore:**
+"\n",
     "- track_name: App-Name",
     "- size_bytes: Größe (in Bytes)",
     "- price: Preisbetrag",
@@ -18,7 +19,8 @@ Einige spannende Spalten lauten wie folgt:
     "- acousticness_%: Akustizität des Songs in Prozent\n",
     "- instrumentalness_%: Instrumentalanteil des Songs in Prozent\n",
     "- speechiness_%: Anteil der gesprochenen Wörter eines Songs\n",
-    
+"---\n",
+
 **apple_desc:**
     "- app_desc: Anwendungsbeschreibung/App-Beschreibung"
     
@@ -31,7 +33,7 @@ Dieses Projekt analysiert die Daten der Apps aus dem Apple App Store, um Einblic
 Die Analyse konzentriert sich auf die Beantwortung folgender Fragen:
 
 1. **Welche Genres haben die höchste Anzahl an Apps? Welche Genres sind weniger vertreten?**
-2. **Wie hoch ist das durchschnittliche Rating und wie differenziert sich diese nach Genres?**
+2. **Wie hoch ist das durchschnittliche Rating und wie differenziert sich dieses nach Genres?**
 3. **Gibt es Unterschiede in den Ratings zwischen kostenpflichtigen und kostenlosen Apps?**
 4. **Wie beeinflusst die Anzahl der verfügbaren Sprachen das Rating?**
 5. **Besteht ein Zusammenhang zwischen der Detailliertheit der App-Beschreibung und dem Rating?**
@@ -57,7 +59,7 @@ Die Analyse konzentriert sich auf die Beantwortung folgender Fragen:
 ![image](https://github.com/user-attachments/assets/dca67661-09a6-4229-b326-82f670aa06b5)
 
 ### 4. **Einfluss der Anzahl der verfügbaren Sprachen auf das App Rating**
-   -Apps welche in 10 bis 30 Sprachen angeboten haben im Durchschnitt höhere Ratings.
+   Apps welche in 10 bis 30 Sprachen angeboten werden, haben im Durchschnitt höhere Ratings.
 
 ![image](https://github.com/user-attachments/assets/06c273f5-94fc-4698-b8d6-735143fd9f6a)
 
@@ -74,4 +76,4 @@ Die Analyse konzentriert sich auf die Beantwortung folgender Fragen:
 
 ## Fazit
 
-Fazit Diese Analyse verdeutlicht Trends und Präferenzen im Apple App Store und zeigt, dass längere Beschreibungen, eine große Sprachauswahl und kostenpflichtige Apps tendenziell höhere Ratings erhalten. Eventuell besteht aufgrund der schwächeren Konkurrenz (weniger Apps) gepaart mit schlechteren Ratings der bestehenden Apps ein höheres Potenzial im genre "Catalogs". 
+Diese Analyse verdeutlicht Trends und Präferenzen im Apple App Store und zeigt, dass längere Beschreibungen, eine große Sprachauswahl und kostenpflichtige Apps tendenziell höhere Ratings erhalten. Eventuell besteht aufgrund der schwächeren Konkurrenz (weniger Apps) gepaart mit schlechteren Ratings der bestehenden Apps ein höheres Potenzial im genre "Catalogs". 
