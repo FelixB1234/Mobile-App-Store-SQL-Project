@@ -53,4 +53,4 @@ Die Analyse konzentriert sich auf die Beantwortung folgender Fragen:
 
 ## Fazit
 
-Fazit Diese Analyse verdeutlicht Trends und Präferenzen im Apple App Store und zeigt, dass längere Beschreibungen, eine große Sprachauswahl und kostenpflichtige Apps tendenziell höhere Ratings erhalten. Eventuell besteht aufgrund der schwächeren Konkurrenz ein größeres Potenzial in den Genres mit schlechteren Ratings wie "Catalogs", "Finance", "Book" etc. 
+Fazit Diese Analyse verdeutlicht Trends und Präferenzen im Apple App Store und zeigt, dass längere Beschreibungen, eine große Sprachauswahl und kostenpflichtige Apps tendenziell höhere Ratings erhalten. Eventuell besteht aufgrund der schwächeren Konkurrenz (weniger Apps) gepaart mit schlechteren Ratings der bestehenden Apps ein höheres Potenzial im genre "Catalogs". 
