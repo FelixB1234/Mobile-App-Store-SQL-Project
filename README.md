@@ -25,7 +25,7 @@ Die Analyse konzentriert sich auf die Beantwortung folgender Fragen:
 
 
 ### 2. **Durchschnittliche  Ratings nach Genres**
-   Das durchschnittliche Rating liegt bei 3,53 (0 = schlechtestes und 5 = bestes Rating). Die durchschnittliche besten Ratings sind im Genre "Productivity", die schlechtesten in "Catalogs". 
+   Das durchschnittliche Rating liegt bei 3,53 (0 = schlechtestes und 5 = bestes Rating). Die durchschnittlich besten Ratings erhalten Apps im Genre "Productivity", die schlechtesten in "Catalogs". 
 
 ![image](https://github.com/user-attachments/assets/324806f4-1f9c-422a-b008-0910933212e4)
 
