@@ -36,17 +36,7 @@ FROM apple_desc
 WHERE app_desc ISNULL 
 
 
-Explorative Datenanalyse:	
---Anzahl der Apps nach Genre: die Meisten Apps (rd. 50%) sind "Games". Weit abgeschlagen "Entertainment" und "Education"
-
-SELECT 
-	prime_genre AS Genre, 
-	COUNT(*) AS Anzahl_Apps
-FROM applestore
-GROUP BY Genre
-ORDER BY Anzahl_Apps DESC
-
-
+Explorative Datenanalyse:
 --Auswertungen der App-Bewertungen (0-5, Durchschnittliche Bewertung: 3,52)
 
 SELECT 
@@ -55,9 +45,18 @@ SELECT
 	AVG(user_rating) AS Durschschnitt_Rating
 FROM applestore
 
-
 Analyse und ableiten von Insights:
---Auswertungen der App-Bewertungen nach Genre 
+
+--Anzahl der Apps nach Genre
+
+SELECT 
+	prime_genre AS Genre, 
+	COUNT(*) AS Anzahl_Apps
+FROM applestore
+GROUP BY Genre
+ORDER BY Anzahl_Apps DESC
+
+--Auswertungen der App-Reviews nach Genre 
 
 SELECT 
 	prime_genre AS Genre,
@@ -88,7 +87,7 @@ GROUP BY Sprachkategorien
 ORDER BY Durschschnitt_Rating DESC
 
 
---Zusammenhang zwischen Detaillierungsgrad (Länge) der App Beschreibung und dem Rating (je länger die Beschriftung, desto höher das durchschnittliche Rating)
+--Zusammenhang zwischen Detaillierungsgrad (Länge) der App Beschreibung und dem Rating
 
 SELECT 
 	CASE WHEN length(d.app_desc) < 500 THEN 'kurz'
@@ -101,7 +100,7 @@ GROUP BY Detaillierungsgrad_Beschreibung
 ORDER BY Durschschnitt_Rating DESC
 
 
---Höchst geratede App nach Genre
+--Höchst bewertete App nach Genre
 
 SELECT
 	prime_genre,
