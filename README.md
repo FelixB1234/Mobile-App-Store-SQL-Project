@@ -3,7 +3,7 @@
 Die Daten stammen aus zwei Datensätzen von kaggle, die Informationen über Apps im Apple App Store enthalten. Der applestore-Datensatz enthält Details wie App-Namen, Ratings und Genres, während der apple_desc-Datensatz die Beschreibungstexte der Apps umfasst. https://www.kaggle.com/datasets/ramamet4/app-store-apple-data-set-10k-apps?select=appleStore_description.csv
 ## Projektübersicht 
 
-In diesem Projekt wird eine Analyse der Daten über Apps aus dem Apple App Store durchgeführt, um Einblicke in die beliebteste App-Kategorien, Bewertungstrends und App-Merkmale zu gewinnen. Ziel ist es, herauszufinden, welche Merkmale die App-Ratings und Beliebtheit beeinflussen, um damit wertvolle Erkenntnisse über die App-Landschaft und Nutzerpräferenzen zu erhalten.
+Dieses Projekt analysiert die Daten der Apps aus dem Apple App Store, um Einblicke in die beliebteste App-Kategorien, Bewertungstrends und App-Merkmale zu gewinnen. Ziel ist es, herauszufinden, welche Merkmale die App-Ratings und Beliebtheit beeinflussen, um damit wertvolle Erkenntnisse über die App-Landschaft und Erfolgsfaktoren für zukünftig entwickelte Apps zu gewinnen.
 
 ## Aufgabenstellung 
 
