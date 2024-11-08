@@ -12,7 +12,7 @@ Die Analyse konzentriert sich auf die Beantwortung folgender Fragen:
 1. **Welche Genres haben die höchste Anzahl an Apps? Welche Genres sind weniger vertreten?**
 2. **Wie hoch ist das durchschnittliche Rating und wie differenziert sich diese nach Genres?**
 3. **Gibt es Unterschiede in den Ratings zwischen kostenpflichtigen und kostenlosen Apps?**
-4. **Wie beeinflusst die Anzahl der verfügbaren Sprachen das Rating? Erhalten Apps mit mehr unterstützten Sprachen höhere Bewertungen?**
+4. **Wie beeinflusst die Anzahl der verfügbaren Sprachen das Rating?**
 5. **Besteht ein Zusammenhang zwischen der Detailliertheit der App-Beschreibung und dem Rating?**
 6. **Welche App hat in jedem Genre das beste Rating?**
 
