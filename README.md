@@ -23,8 +23,8 @@ Dieses Projekt analysiert die Daten der Apps aus dem Apple App Store, um Einblic
 
 Die Analyse konzentriert sich auf die Beantwortung folgender Fragen:
 
-1. **Welche Genres haben die höchste Anzahl an Apps? Welche Genres sind weniger vertreten?**
-2. **Wie hoch ist das durchschnittliche Rating und wie differenziert sich dieses nach Genres?**
+1. **Welche Genres haben die höchste Anzahl an Apps? Welche Genres sind weniger häufig vertreten?**
+2. **Wie hoch ist das durchschnittliche Rating und wie differenziert sich dieses nach Genre?**
 3. **Gibt es Unterschiede in den Ratings zwischen kostenpflichtigen und kostenlosen Apps?**
 4. **Wie beeinflusst die Anzahl der verfügbaren Sprachen das Rating?**
 5. **Besteht ein Zusammenhang zwischen der Detailliertheit der App-Beschreibung und dem Rating?**
