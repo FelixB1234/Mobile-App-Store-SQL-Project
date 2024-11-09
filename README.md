@@ -67,4 +67,4 @@ Die Analyse konzentriert sich auf die Beantwortung folgender Fragen:
 
 ## Fazit
 
-Diese Analyse verdeutlicht Trends und Präferenzen im Apple App Store und zeigt, dass längere Beschreibungen, eine große Sprachauswahl und kostenpflichtige Apps tendenziell höhere Ratings erhalten. Genres „Games“, „Entertainment“ und „Education“ könnten bereits gesättigt sein. Eventuell besteht aufgrund der schwächeren Konkurrenz (weniger Apps) gepaart mit schlechteren Ratings der bestehenden Apps ein höheres Potenzial im Genre "Catalogs". 
+Diese Analyse verdeutlicht Trends und Präferenzen im Apple App Store und zeigt, dass längere Beschreibungen, eine große Sprachauswahl und kostenpflichtige Apps tendenziell höhere Ratings erhalten. Die Genres „Games“, „Entertainment“ und „Education“ könnten bereits gesättigt sein. Eventuell besteht aufgrund der schwächeren Konkurrenz (weniger Apps) gepaart mit schlechteren Ratings der bestehenden Apps ein höheres Potenzial im Genre "Catalogs". 
