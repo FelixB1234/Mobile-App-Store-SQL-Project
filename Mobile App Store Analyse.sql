@@ -42,7 +42,7 @@ Explorative Datenanalyse:
 SELECT 
 	MIN(user_rating) AS minrating,
 	MAX(user_rating) AS maxrating,
-	AVG(user_rating) AS Durschschnitt_Rating
+	AVG(user_rating) AS Durchschnitt_Rating
 FROM applestore
 
 	
@@ -61,23 +61,36 @@ ORDER BY Anzahl_Apps DESC
 
 SELECT 
 	prime_genre AS Genre,
-	ROUND(AVG(user_rating),2) AS Durschschnitt_Rating
+	ROUND(AVG(user_rating),2) AS Durchschnitt_Rating
 FROM applestore
 GROUP BY Genre
-ORDER BY Durschschnitt_Rating DESC
+ORDER BY Durchschnitt_Rating DESC
 
 
 --Rating Unterschied von gratis und kostenpflichtigen Apps 
 
 SELECT 
-	CASE WHEN price >0 THEN 'kostenpflichtig' ELSE 'gratis' END AS App_Typ,
-	ROUND(AVG(user_rating),2) AS Durschschnitt_Rating
+	CASE WHEN price >0 THEN 'kostenpflichtig' ELSE 'kostenlos' END AS App_Typ,
+	ROUND(AVG(user_rating),2) AS Durchschnitt_Rating
 FROM applestore
 GROUP BY App_Typ
 
 
 --Rating Unterschied aufgrund der Anzahl von angebotenen Sprachen der Apps 
 
+SELECT 
+	MIN(lang_num),
+	MAX(lang_num),
+	ROUND(avg(lang_num),2)
+FROM applestore
+
+SELECT 
+	track_name,
+	MAX(lang_num)
+FROM applestore
+GROUP BY track_name 
+ORDER BY MAX(lang_num) DESC
+	
 SELECT
 	CASE WHEN lang_num < 10 THEN 'weniger als 10 Sprachen'
 		WHEN lang_num BETWEEN 10 AND 30 THEN '10-30 Sprachen'
