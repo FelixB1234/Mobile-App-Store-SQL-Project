@@ -41,16 +41,16 @@ Die Analyse konzentriert sich auf die Beantwortung folgender Fragen:
 ### 2. **Durchschnittliche  Ratings nach Genres**
    Das durchschnittliche Rating liegt bei 3,53 (0 = schlechtestes und 5 = bestes Rating). Die durchschnittlich besten Ratings erhalten Apps im Genre "Productivity", die schlechtesten in "Catalogs". 
 
-![image](https://github.com/user-attachments/assets/324806f4-1f9c-422a-b008-0910933212e4)
+![image](https://github.com/user-attachments/assets/e79fb601-f741-4965-a804-5b37f2e44540)
 
 
 ### 3. **Unterschiede zwischen den Ratings bei kostenpflichtigen und kostenlosen Apps**
    Kostenpflichtige Apps haben im Durchschnitt ein höheres Rating (3,72) im Vergleich zu kostenlosen Apps (3,38). 
 
-![image](https://github.com/user-attachments/assets/dca67661-09a6-4229-b326-82f670aa06b5)
+![image](https://github.com/user-attachments/assets/c9984280-8378-428a-aa4d-171f8e0480a5)
 
 ### 4. **Einfluss der Anzahl der verfügbaren Sprachen auf das App Rating**
-   Apps welche in 10 bis 30 Sprachen angeboten werden, haben im Durchschnitt höhere Ratings.
+   Apps welche in 10 bis 30 Sprachen angeboten werden, haben im Durchschnitt höhere Ratings, während sich die durchschnittliche Anzahl an Sprachen pro App auf rd. 5 (5,43) beläuft. Die APP "Google Photos - unlimited photo and video stroage" wird als Spitzenreiter in 75 Sprachen angeboten.
 
 ![image](https://github.com/user-attachments/assets/06c273f5-94fc-4698-b8d6-735143fd9f6a)
 
