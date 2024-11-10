@@ -47,7 +47,8 @@ Die Analyse konzentriert sich auf die Beantwortung folgender Fragen:
 ### 3. **Unterschiede zwischen den Ratings bei kostenpflichtigen und kostenlosen Apps**
    Kostenpflichtige Apps haben im Durchschnitt ein höheres Rating (3,72) im Vergleich zu kostenlosen Apps (3,38). 
 
-![image](https://github.com/user-attachments/assets/c9984280-8378-428a-aa4d-171f8e0480a5)
+![image](https://github.com/user-attachments/assets/4eca672b-928c-48c2-a592-8856c493058a)
+
 
 ### 4. **Einfluss der Anzahl der verfügbaren Sprachen auf das App Rating**
    Apps welche in 10 bis 30 Sprachen angeboten werden, haben im Durchschnitt höhere Ratings, während sich die durchschnittliche Anzahl an Sprachen pro App auf rd. 5 (5,43) beläuft. Die APP "Google Photos - unlimited photo and video stroage" wird als Spitzenreiter in 75 Sprachen angeboten.
