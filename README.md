@@ -54,15 +54,18 @@ Die Analyse konzentriert sich auf die Beantwortung folgender Fragen:
 ### 4. **Einfluss der Anzahl der verfügbaren Sprachen auf das App Rating**
    Apps welche in 10 bis 30 Sprachen angeboten werden, haben im Durchschnitt höhere Ratings, während sich die durchschnittliche Anzahl an Sprachen pro App auf rd. 5 (5,43) beläuft. Die APP "Google Photos - unlimited photo and video stroage" wird als Spitzenreiter in 75 Sprachen angeboten.
 
-![image](https://github.com/user-attachments/assets/06c273f5-94fc-4698-b8d6-735143fd9f6a)
+![image](https://github.com/user-attachments/assets/218473bb-93e9-4ff7-abed-657d5957de7d)
+
 
 ### 5. **Zusammenhang zwischen Detailliertheit der App-Beschreibung und dem Rating**
    Apps mit detaillierten (bzw. längeren) Beschreibungen haben höhere Ratings als Apps mit kürzeren Beschreibungen.
 
-![image](https://github.com/user-attachments/assets/e856de3b-00e0-430d-b022-79d2a4559a8f)
+![image](https://github.com/user-attachments/assets/627f99bf-cebe-4b44-895f-3a7fd9f5b2ff)
+
 
 ### 6. **App mit dem besten Rating je Genre**
    Im Anschluss sind die am besten bewerteten Apps je Genre angeführt.
+
 
 ![image](https://github.com/user-attachments/assets/1caebbc7-4010-426e-9525-504ea97e0d2b)
 
