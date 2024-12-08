@@ -95,7 +95,7 @@ SELECT
 	CASE WHEN lang_num < 10 THEN 'weniger als 10 Sprachen'
 		WHEN lang_num BETWEEN 10 AND 30 THEN '10-30 Sprachen'
 		ELSE 'mehr als 30 Sprachen' END AS Sprachkategorien,
-	ROUND(AVG(user_rating),2)) AS Durchschnitt_Rating
+	ROUND(AVG(user_rating),2) AS Durchschnitt_Rating
 FROM applestore
 GROUP BY Sprachkategorien
 ORDER BY Durchschnitt_Rating DESC
