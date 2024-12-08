@@ -95,10 +95,10 @@ SELECT
 	CASE WHEN lang_num < 10 THEN 'weniger als 10 Sprachen'
 		WHEN lang_num BETWEEN 10 AND 30 THEN '10-30 Sprachen'
 		ELSE 'mehr als 30 Sprachen' END AS Sprachkategorien,
-	ROUND(AVG(user_rating),2)) AS Durschschnitt_Rating
+	ROUND(AVG(user_rating),2)) AS Durchschnitt_Rating
 FROM applestore
 GROUP BY Sprachkategorien
-ORDER BY Durschschnitt_Rating DESC
+ORDER BY Durchschnitt_Rating DESC
 
 
 --Zusammenhang zwischen Detailliertheit (Länge) der App Beschreibung und dem Rating
@@ -107,11 +107,11 @@ SELECT
 	CASE WHEN length(d.app_desc) < 500 THEN 'kurz'
 		WHEN length(d.app_desc) BETWEEN 500 AND 1000 THEN 'mittel'
 		ELSE 'lang' END AS Detailliertheit_Beschreibung,
-	ROUND(AVG(user_rating),2) AS Durschschnitt_Rating 
+	ROUND(AVG(user_rating),2) AS Durchschnitt_Rating 
 FROM applestore AS s
 JOIN apple_desc AS d ON s.id = d.id
 GROUP BY Detailliertheit_Beschreibung
-ORDER BY Durschschnitt_Rating DESC
+ORDER BY Durchschnitt_Rating DESC
 
 
 SELECT
